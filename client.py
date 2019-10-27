@@ -1,5 +1,6 @@
 import socketio
 import asyncio
+from mylog import logger as log 
 
 # standard Python
 sio = socketio.Client()
@@ -11,29 +12,26 @@ sio = socketio.Client()
 def message(data):
     print('I received a message!')
 
-@sio.on('my message')
-def on_message(data):
-    print('I received a message!')
-
-@sio.event
-def message(data):
-    print('I received a message!')
-
 
 @sio.event
 def connect():
-    print("I'm connected!")
-    print('my sid is', sio.sid)
+    log.debug("I'm connected!")
+    log.debug('my sid is', sio.sid)
+    sio.emit("join", sio.sid)
 
 @sio.event
 def disconnect():
-    print("I'm disconnected!")
+    log.debug("I'm disconnected!")
 
 
 @sio.on("bot_uttered")
 def on_bot_msg(data):
-    print("Bot: {}".format(data))
+    log.info("Bot: {}".format(data))
 
+
+@sio.on("utter_join")
+def on_join(data):
+    log.info(data)
 
 #await sio.connect('ws://localhost:5005/socket.io/')
 #sio.emit("session_request", {"session_id": "shivam"})
@@ -47,7 +45,9 @@ def on_bot_msg(data):
 
 
 def connect():
-    sio.connect('ws://localhost:5005/socket.io/')
+    #sio.connect('ws://localhost:5005/socket.io/')
+    log.debug("Connecting...")
+    sio.connect('ws://localhost:5005/')
 
 
 
@@ -64,6 +64,6 @@ send(msg)
 
 while(True):
     imsg= input()
-    print("User: {}".format(imsg))
+    log.debug("User: {}".format(imsg))
     msg= {"sender_id":"shivam", "message":imsg, "session_id": sio.sid}
     send(msg)
