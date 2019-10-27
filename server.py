@@ -19,10 +19,14 @@ def disconnect(sid):
     log.info('User Disconnected: {}'.format(sid))
 
 
+
+
 @sio.on("join")
 def on_join(sid, data):
     log.info("User joined: {}".format(sid))
     sio.emit("utter_join", "{} has joined".format(sid))
+
+
 
 
 @sio.on("user_uttered")
@@ -37,7 +41,7 @@ def user_uttered(sid, data):
 
 def parse_msg(data):
     msg= data
-    #msg= msg.upper()
+    msg= msg.upper()
     #msg= data['message']
     return msg
 

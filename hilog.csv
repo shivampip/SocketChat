@@ -205,3 +205,172 @@
 2019-10-27 12:53:58,631 , client, on_bot_msg, INFO, 20, Bot: {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'f61068ce3a184a9e80e63c39a16a485e'}, client.py, MainProcess, 879 
 2019-10-27 12:54:19,330 , client, disconnect, DEBUG, 10, I'm disconnected!, client.py, MainProcess, 21577 
 2019-10-27 12:54:19,331 , server, disconnect, INFO, 20, User Disconnected: f61068ce3a184a9e80e63c39a16a485e, server.py, MainProcess, 29709 
+2019-10-27 12:58:32,906 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 1527 
+2019-10-27 12:59:32,116 , server, connect, INFO, 20, User Connected: b940343f6c99404ebb0f1711c68528a6, server.py, MainProcess, 60736 
+2019-10-27 12:59:32,116 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 60736 
+2019-10-27 13:04:49,717 , server, disconnect, INFO, 20, User Disconnected: b940343f6c99404ebb0f1711c68528a6, server.py, MainProcess, 378337 
+2019-10-27 13:04:52,940 , server, connect, INFO, 20, User Connected: a5c142781b5c4a159f35c64a9ee67ed1, server.py, MainProcess, 381560 
+2019-10-27 13:04:52,940 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 381560 
+2019-10-27 13:05:29,163 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 7367 
+2019-10-27 13:05:29,164 , client, connect, DEBUG, 10, Connecting..., client.py, MainProcess, 7367 
+2019-10-27 13:05:29,178 , server, connect, INFO, 20, User Connected: ac253c9750be4f05aa3746733294c91e, server.py, MainProcess, 417798 
+2019-10-27 13:05:29,178 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 417798 
+2019-10-27 13:05:29,180 , client, on_bot_msg, INFO, 20, Bot: You are Connected, client.py, MainProcess, 7383 
+2019-10-27 13:05:29,180 , client, connect, DEBUG, 10, I'm connected!, client.py, MainProcess, 7384 
+2019-10-27 13:05:29,185 , server, user_uttered, DEBUG, 10, User : {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'ac253c9750be4f05aa3746733294c91e'}, server.py, MainProcess, 417805 
+2019-10-27 13:05:29,185 , server, send_msg, INFO, 20, Bot : {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'ac253c9750be4f05aa3746733294c91e'}, server.py, MainProcess, 417805 
+2019-10-27 13:05:29,186 , client, on_bot_msg, INFO, 20, Bot: {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'ac253c9750be4f05aa3746733294c91e'}, client.py, MainProcess, 7389 
+2019-10-27 13:05:29,230 , server, on_join, INFO, 20, User joined: ac253c9750be4f05aa3746733294c91e, server.py, MainProcess, 417850 
+2019-10-27 13:05:29,232 , client, on_join, INFO, 20, ac253c9750be4f05aa3746733294c91e has joined, client.py, MainProcess, 7436 
+2019-10-27 13:06:11,890 , server, disconnect, INFO, 20, User Disconnected: a5c142781b5c4a159f35c64a9ee67ed1, server.py, MainProcess, 460510 
+2019-10-27 13:06:14,966 , server, connect, INFO, 20, User Connected: 01951a8f28eb445c9afbdc0264535eaa, server.py, MainProcess, 463586 
+2019-10-27 13:06:14,966 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 463586 
+2019-10-27 13:13:11,908 , server, disconnect, INFO, 20, User Disconnected: 01951a8f28eb445c9afbdc0264535eaa, server.py, MainProcess, 880528 
+2019-10-27 13:13:24,779 , server, connect, INFO, 20, User Connected: 8ab354f599ad4b4b995bd74ca9c22d29, server.py, MainProcess, 893399 
+2019-10-27 13:13:24,779 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 893399 
+2019-10-27 13:14:10,656 , server, disconnect, INFO, 20, User Disconnected: 8ab354f599ad4b4b995bd74ca9c22d29, server.py, MainProcess, 939277 
+2019-10-27 13:14:13,681 , server, connect, INFO, 20, User Connected: 80c432d8fa5b4735bc7df305c2267bd2, server.py, MainProcess, 942301 
+2019-10-27 13:14:13,681 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 942301 
+2019-10-27 13:17:07,756 , client, disconnect, DEBUG, 10, I'm disconnected!, client.py, MainProcess, 705960 
+2019-10-27 13:17:07,757 , server, disconnect, INFO, 20, User Disconnected: ac253c9750be4f05aa3746733294c91e, server.py, MainProcess, 1116377 
+2019-10-27 13:17:24,826 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 13422 
+2019-10-27 13:17:24,827 , client, connect, DEBUG, 10, Connecting..., client.py, MainProcess, 13423 
+2019-10-27 13:17:24,852 , server, connect, INFO, 20, User Connected: 65aa43f6b0e4412580d31cdee951d40c, server.py, MainProcess, 1133472 
+2019-10-27 13:17:24,852 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 1133472 
+2019-10-27 13:17:24,857 , client, on_bot_msg, INFO, 20, Bot: You are Connected, client.py, MainProcess, 13453 
+2019-10-27 13:17:24,858 , client, connect, DEBUG, 10, I'm connected!, client.py, MainProcess, 13454 
+2019-10-27 13:17:24,864 , server, user_uttered, DEBUG, 10, User : {'sender_id': 'shivam', 'message': 'bye', 'session_id': '65aa43f6b0e4412580d31cdee951d40c'}, server.py, MainProcess, 1133484 
+2019-10-27 13:17:24,865 , server, send_msg, INFO, 20, Bot : {'sender_id': 'shivam', 'message': 'bye', 'session_id': '65aa43f6b0e4412580d31cdee951d40c'}, server.py, MainProcess, 1133485 
+2019-10-27 13:17:24,868 , client, on_bot_msg, INFO, 20, Bot: {'sender_id': 'shivam', 'message': 'bye', 'session_id': '65aa43f6b0e4412580d31cdee951d40c'}, client.py, MainProcess, 13464 
+2019-10-27 13:17:24,892 , server, on_join, INFO, 20, User joined: 65aa43f6b0e4412580d31cdee951d40c, server.py, MainProcess, 1133512 
+2019-10-27 13:17:24,894 , client, on_join, INFO, 20, 65aa43f6b0e4412580d31cdee951d40c has joined, client.py, MainProcess, 13490 
+2019-10-27 14:00:14,776 , server, disconnect, INFO, 20, User Disconnected: 80c432d8fa5b4735bc7df305c2267bd2, server.py, MainProcess, 3703396 
+2019-10-27 14:13:21,021 , client, disconnect, DEBUG, 10, I'm disconnected!, client.py, MainProcess, 3369617 
+2019-10-27 14:13:21,022 , server, disconnect, INFO, 20, User Disconnected: 65aa43f6b0e4412580d31cdee951d40c, server.py, MainProcess, 4489642 
+2019-10-27 14:13:40,818 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 16463 
+2019-10-27 14:13:40,819 , client, connect, DEBUG, 10, Connecting..., client.py, MainProcess, 16463 
+2019-10-27 14:13:40,833 , server, connect, INFO, 20, User Connected: aa40872ae13645c7ad126c9cc30c5a11, server.py, MainProcess, 4509453 
+2019-10-27 14:13:40,833 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 4509454 
+2019-10-27 14:13:40,836 , client, on_bot_msg, INFO, 20, Bot: You are Connected, client.py, MainProcess, 16481 
+2019-10-27 14:13:40,837 , client, connect, DEBUG, 10, I'm connected!, client.py, MainProcess, 16481 
+2019-10-27 14:13:40,879 , server, user_uttered, DEBUG, 10, User : {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, server.py, MainProcess, 4509499 
+2019-10-27 14:13:40,879 , server, send_msg, INFO, 20, Bot : {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, server.py, MainProcess, 4509499 
+2019-10-27 14:13:40,881 , client, on_bot_msg, INFO, 20, Bot: {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, client.py, MainProcess, 16526 
+2019-10-27 14:13:40,998 , server, on_join, INFO, 20, User joined: aa40872ae13645c7ad126c9cc30c5a11, server.py, MainProcess, 4509618 
+2019-10-27 14:13:41,001 , client, on_join, INFO, 20, aa40872ae13645c7ad126c9cc30c5a11 has joined, client.py, MainProcess, 16646 
+2019-10-27 14:14:12,696 , client, <module>, DEBUG, 10, User: hello, client.py, MainProcess, 48341 
+2019-10-27 14:14:12,698 , server, user_uttered, DEBUG, 10, User : {'sender_id': 'shivam', 'message': 'hello', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, server.py, MainProcess, 4541318 
+2019-10-27 14:14:12,699 , server, send_msg, INFO, 20, Bot : {'sender_id': 'shivam', 'message': 'hello', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, server.py, MainProcess, 4541319 
+2019-10-27 14:14:12,700 , client, on_bot_msg, INFO, 20, Bot: {'sender_id': 'shivam', 'message': 'hello', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, client.py, MainProcess, 48345 
+2019-10-27 14:14:14,288 , client, <module>, DEBUG, 10, User: bye, client.py, MainProcess, 49933 
+2019-10-27 14:14:14,290 , server, user_uttered, DEBUG, 10, User : {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, server.py, MainProcess, 4542910 
+2019-10-27 14:14:14,290 , server, send_msg, INFO, 20, Bot : {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, server.py, MainProcess, 4542910 
+2019-10-27 14:14:14,291 , client, on_bot_msg, INFO, 20, Bot: {'sender_id': 'shivam', 'message': 'bye', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, client.py, MainProcess, 49936 
+2019-10-27 14:14:21,204 , client, <module>, DEBUG, 10, User: Happy Diwali, client.py, MainProcess, 56849 
+2019-10-27 14:14:21,206 , server, user_uttered, DEBUG, 10, User : {'sender_id': 'shivam', 'message': 'Happy Diwali', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, server.py, MainProcess, 4549826 
+2019-10-27 14:14:21,206 , server, send_msg, INFO, 20, Bot : {'sender_id': 'shivam', 'message': 'Happy Diwali', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, server.py, MainProcess, 4549826 
+2019-10-27 14:14:21,208 , client, on_bot_msg, INFO, 20, Bot: {'sender_id': 'shivam', 'message': 'Happy Diwali', 'session_id': 'aa40872ae13645c7ad126c9cc30c5a11'}, client.py, MainProcess, 56853 
+2019-10-27 14:14:53,651 , server, connect, INFO, 20, User Connected: e6739f0dd6b74b34bac2918313c0b1d5, server.py, MainProcess, 4582271 
+2019-10-27 14:14:53,651 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 4582271 
+2019-10-27 14:19:38,416 , client, disconnect, DEBUG, 10, I'm disconnected!, client.py, MainProcess, 374061 
+2019-10-27 14:19:38,417 , server, disconnect, INFO, 20, User Disconnected: aa40872ae13645c7ad126c9cc30c5a11, server.py, MainProcess, 4867037 
+2019-10-27 14:20:40,531 , server, disconnect, INFO, 20, User Disconnected: e6739f0dd6b74b34bac2918313c0b1d5, server.py, MainProcess, 4929151 
+2019-10-27 14:21:00,765 , server, connect, INFO, 20, User Connected: 4604113740ed411d98f0121725302c20, server.py, MainProcess, 4949385 
+2019-10-27 14:21:00,766 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 4949386 
+2019-10-27 14:21:46,535 , server, disconnect, INFO, 20, User Disconnected: 4604113740ed411d98f0121725302c20, server.py, MainProcess, 4995155 
+2019-10-27 14:21:51,549 , server, connect, INFO, 20, User Connected: b72026f2152c4f0e937d3631306141a8, server.py, MainProcess, 5000170 
+2019-10-27 14:21:51,550 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 5000170 
+2019-10-27 14:22:56,775 , server, disconnect, INFO, 20, User Disconnected: b72026f2152c4f0e937d3631306141a8, server.py, MainProcess, 5065395 
+2019-10-27 14:23:04,451 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 3431 
+2019-10-27 14:23:05,567 , server, connect, INFO, 20, User Connected: 4fe3a727a1f34ed7baaf21f1cc685605, server.py, MainProcess, 4547 
+2019-10-27 14:23:05,567 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 4548 
+2019-10-27 14:23:15,860 , server, disconnect, INFO, 20, User Disconnected: 4fe3a727a1f34ed7baaf21f1cc685605, server.py, MainProcess, 14840 
+2019-10-27 14:23:19,254 , server, connect, INFO, 20, User Connected: c09f4cbfaae0489083d090eac2999a46, server.py, MainProcess, 18234 
+2019-10-27 14:23:19,254 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 18234 
+2019-10-27 14:24:05,612 , server, disconnect, INFO, 20, User Disconnected: c09f4cbfaae0489083d090eac2999a46, server.py, MainProcess, 64592 
+2019-10-27 14:24:10,636 , server, connect, INFO, 20, User Connected: 154209cf513a49039a55aa3733345058, server.py, MainProcess, 69616 
+2019-10-27 14:24:10,636 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 69616 
+2019-10-27 14:24:30,346 , server, disconnect, INFO, 20, User Disconnected: 154209cf513a49039a55aa3733345058, server.py, MainProcess, 89326 
+2019-10-27 14:24:35,445 , server, connect, INFO, 20, User Connected: 475fdd876f99458499c6cb11d75e9ac0, server.py, MainProcess, 94425 
+2019-10-27 14:24:35,445 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 94426 
+2019-10-27 14:24:41,003 , server, disconnect, INFO, 20, User Disconnected: 475fdd876f99458499c6cb11d75e9ac0, server.py, MainProcess, 99983 
+2019-10-27 14:24:44,693 , server, connect, INFO, 20, User Connected: 0089d860e8e84ab2a06fcc6bf5cdf38a, server.py, MainProcess, 103673 
+2019-10-27 14:24:44,695 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 103675 
+2019-10-27 14:25:47,540 , server, disconnect, INFO, 20, User Disconnected: 0089d860e8e84ab2a06fcc6bf5cdf38a, server.py, MainProcess, 166521 
+2019-10-27 14:25:53,911 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 2777 
+2019-10-27 14:25:54,323 , server, connect, INFO, 20, User Connected: 87afa5fdc87649459ceb38f9b06c9e46, server.py, MainProcess, 3189 
+2019-10-27 14:25:54,324 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 3189 
+2019-10-27 14:26:05,343 , server, disconnect, INFO, 20, User Disconnected: 87afa5fdc87649459ceb38f9b06c9e46, server.py, MainProcess, 14208 
+2019-10-27 14:26:08,501 , server, connect, INFO, 20, User Connected: 5eb773f2325b46779e40b5e6b0d3338e, server.py, MainProcess, 17366 
+2019-10-27 14:26:08,501 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 17367 
+2019-10-27 14:31:33,504 , server, disconnect, INFO, 20, User Disconnected: 5eb773f2325b46779e40b5e6b0d3338e, server.py, MainProcess, 342370 
+2019-10-27 14:31:41,292 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 5146 
+2019-10-27 14:31:42,785 , server, connect, INFO, 20, User Connected: c691376c3ac249c8abd839b29771c214, server.py, MainProcess, 6639 
+2019-10-27 14:31:42,785 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 6640 
+2019-10-27 14:31:43,481 , server, disconnect, INFO, 20, User Disconnected: c691376c3ac249c8abd839b29771c214, server.py, MainProcess, 7336 
+2019-10-27 14:31:46,821 , server, connect, INFO, 20, User Connected: ed4dc3bf650742a1b9d27b1fb358362f, server.py, MainProcess, 10676 
+2019-10-27 14:31:46,822 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 10676 
+2019-10-27 14:32:42,816 , server, disconnect, INFO, 20, User Disconnected: ed4dc3bf650742a1b9d27b1fb358362f, server.py, MainProcess, 66670 
+2019-10-27 14:32:43,946 , server, connect, INFO, 20, User Connected: 67a494f7afd04a03b4c5be195d9795a3, server.py, MainProcess, 67800 
+2019-10-27 14:32:43,949 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 67804 
+2019-10-27 14:35:25,114 , server, disconnect, INFO, 20, User Disconnected: 67a494f7afd04a03b4c5be195d9795a3, server.py, MainProcess, 228969 
+2019-10-27 14:40:56,306 , server, connect, INFO, 20, User Connected: b097cb58851344ef84e852f2a648f1cd, server.py, MainProcess, 560161 
+2019-10-27 14:40:56,308 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 560162 
+2019-10-27 14:41:43,112 , server, disconnect, INFO, 20, User Disconnected: b097cb58851344ef84e852f2a648f1cd, server.py, MainProcess, 606966 
+2019-10-27 14:41:44,637 , server, connect, INFO, 20, User Connected: e7b28e31a758498f99174b4ca834e15c, server.py, MainProcess, 608491 
+2019-10-27 14:41:44,637 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 608492 
+2019-10-27 14:41:50,923 , server, disconnect, INFO, 20, User Disconnected: e7b28e31a758498f99174b4ca834e15c, server.py, MainProcess, 614777 
+2019-10-27 14:41:54,277 , server, connect, INFO, 20, User Connected: 5aa1fe42c2fe453f8967708616da432f, server.py, MainProcess, 618131 
+2019-10-27 14:41:54,277 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 618132 
+2019-10-27 14:42:30,212 , server, disconnect, INFO, 20, User Disconnected: 5aa1fe42c2fe453f8967708616da432f, server.py, MainProcess, 654067 
+2019-10-27 14:42:34,295 , server, connect, INFO, 20, User Connected: 323e94fb249f4a24b01a0d9da7fb3838, server.py, MainProcess, 658150 
+2019-10-27 14:42:34,295 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 658150 
+2019-10-27 14:54:25,512 , server, disconnect, INFO, 20, User Disconnected: 323e94fb249f4a24b01a0d9da7fb3838, server.py, MainProcess, 1369367 
+2019-10-27 14:54:29,004 , server, connect, INFO, 20, User Connected: e9120d7e768d45d6a1b185a217cb21b3, server.py, MainProcess, 1372858 
+2019-10-27 14:54:29,004 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 1372859 
+2019-10-27 14:55:20,365 , server, disconnect, INFO, 20, User Disconnected: e9120d7e768d45d6a1b185a217cb21b3, server.py, MainProcess, 1424219 
+2019-10-27 14:55:38,812 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 11826 
+2019-10-27 14:55:43,371 , server, connect, INFO, 20, User Connected: 2381a8ea6dca42c1855eaecd7a69641c, server.py, MainProcess, 16385 
+2019-10-27 14:55:43,371 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 16385 
+2019-10-27 14:55:43,392 , server, on_join, INFO, 20, User joined: 2381a8ea6dca42c1855eaecd7a69641c, server.py, MainProcess, 16407 
+2019-10-27 14:55:52,202 , server, on_join, INFO, 20, User joined: 2381a8ea6dca42c1855eaecd7a69641c, server.py, MainProcess, 25216 
+2019-10-27 14:57:17,372 , server, disconnect, INFO, 20, User Disconnected: 2381a8ea6dca42c1855eaecd7a69641c, server.py, MainProcess, 110386 
+2019-10-27 14:57:20,904 , server, connect, INFO, 20, User Connected: ef4745a079e24bf1a2799003cc2af13e, server.py, MainProcess, 113919 
+2019-10-27 14:57:20,905 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 113919 
+2019-10-27 14:57:20,959 , server, on_join, INFO, 20, User joined: ef4745a079e24bf1a2799003cc2af13e, server.py, MainProcess, 113973 
+2019-10-27 14:57:27,732 , server, user_uttered, DEBUG, 10, User : Hellox, server.py, MainProcess, 120746 
+2019-10-27 14:57:27,733 , server, send_msg, INFO, 20, Bot : Hellox, server.py, MainProcess, 120747 
+2019-10-27 14:57:32,209 , server, user_uttered, DEBUG, 10, User : Helloxfgdfgdsfdsfsdf, server.py, MainProcess, 125224 
+2019-10-27 14:57:32,211 , server, send_msg, INFO, 20, Bot : Helloxfgdfgdsfdsfsdf, server.py, MainProcess, 125226 
+2019-10-27 14:57:42,944 , server, disconnect, INFO, 20, User Disconnected: ef4745a079e24bf1a2799003cc2af13e, server.py, MainProcess, 135958 
+2019-10-27 14:58:46,455 , server, connect, INFO, 20, User Connected: ba7a02112b0a4ae7a00db810581bfffc, server.py, MainProcess, 199470 
+2019-10-27 14:58:46,470 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 199484 
+2019-10-27 14:58:46,503 , server, on_join, INFO, 20, User joined: ba7a02112b0a4ae7a00db810581bfffc, server.py, MainProcess, 199517 
+2019-10-27 14:59:43,443 , server, disconnect, INFO, 20, User Disconnected: ba7a02112b0a4ae7a00db810581bfffc, server.py, MainProcess, 256457 
+2019-10-27 14:59:43,457 , server, user_uttered, DEBUG, 10, User : hello, server.py, MainProcess, 256471 
+2019-10-27 14:59:43,457 , server, send_msg, INFO, 20, Bot : hello, server.py, MainProcess, 256472 
+2019-10-27 14:59:43,458 , server, user_uttered, DEBUG, 10, User : hello, server.py, MainProcess, 256473 
+2019-10-27 14:59:43,459 , server, send_msg, INFO, 20, Bot : hello, server.py, MainProcess, 256473 
+2019-10-27 14:59:43,459 , server, user_uttered, DEBUG, 10, User : hellosdfsdfsdfsdfdsf, server.py, MainProcess, 256473 
+2019-10-27 14:59:43,459 , server, send_msg, INFO, 20, Bot : hellosdfsdfsdfsdfdsf, server.py, MainProcess, 256474 
+2019-10-27 14:59:48,473 , server, connect, INFO, 20, User Connected: bc1675e632e74b139bd7ce9a6d4db913, server.py, MainProcess, 261487 
+2019-10-27 14:59:48,473 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 261488 
+2019-10-27 14:59:52,393 , server, disconnect, INFO, 20, User Disconnected: bc1675e632e74b139bd7ce9a6d4db913, server.py, MainProcess, 265407 
+2019-10-27 14:59:57,911 , server, connect, INFO, 20, User Connected: 55123209646f40179b18ef01555fd9e1, server.py, MainProcess, 270925 
+2019-10-27 14:59:57,911 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 270925 
+2019-10-27 14:59:57,952 , server, on_join, INFO, 20, User joined: 55123209646f40179b18ef01555fd9e1, server.py, MainProcess, 270967 
+2019-10-27 15:00:06,796 , server, user_uttered, DEBUG, 10, User : fdsgdfhsdfsdfdsf cvbfgbfg, server.py, MainProcess, 279810 
+2019-10-27 15:00:06,801 , server, send_msg, INFO, 20, Bot : fdsgdfhsdfsdfdsf cvbfgbfg, server.py, MainProcess, 279815 
+2019-10-27 15:00:52,281 , server, disconnect, INFO, 20, User Disconnected: 55123209646f40179b18ef01555fd9e1, server.py, MainProcess, 325295 
+2019-10-27 15:00:59,739 , mylog, <module>, DEBUG, 10, Logging Started, /home/shiva/p/pro/SocketChat/mylog.py, MainProcess, 3417 
+2019-10-27 15:01:00,210 , server, connect, INFO, 20, User Connected: ace39acf576c40eaadda7753884f38b5, server.py, MainProcess, 3888 
+2019-10-27 15:01:00,210 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 3888 
+2019-10-27 15:01:04,403 , server, disconnect, INFO, 20, User Disconnected: ace39acf576c40eaadda7753884f38b5, server.py, MainProcess, 8081 
+2019-10-27 15:01:07,982 , server, connect, INFO, 20, User Connected: 54a5822eae684f8fa5ea92bfd1e5dc48, server.py, MainProcess, 11660 
+2019-10-27 15:01:07,983 , server, send_msg, INFO, 20, Bot : You are Connected, server.py, MainProcess, 11660 
+2019-10-27 15:01:08,033 , server, on_join, INFO, 20, User joined: 54a5822eae684f8fa5ea92bfd1e5dc48, server.py, MainProcess, 11710 
+2019-10-27 15:01:18,798 , server, user_uttered, DEBUG, 10, User : hello, server.py, MainProcess, 22475 
+2019-10-27 15:01:18,802 , server, send_msg, INFO, 20, Bot : HELLO, server.py, MainProcess, 22479 
+2019-10-27 15:01:23,249 , server, user_uttered, DEBUG, 10, User : hellowffsdgsfhdg fasdsdf, server.py, MainProcess, 26926 
+2019-10-27 15:01:23,250 , server, send_msg, INFO, 20, Bot : HELLOWFFSDGSFHDG FASDSDF, server.py, MainProcess, 26927 
+2019-10-27 15:02:10,085 , server, disconnect, INFO, 20, User Disconnected: 54a5822eae684f8fa5ea92bfd1e5dc48, server.py, MainProcess, 73763 
