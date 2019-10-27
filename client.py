@@ -59,11 +59,12 @@ connect()
 
 
 msg= {"sender_id":"shivam", "message":"bye", "session_id": sio.sid}
-send(msg)
+#send(msg)
 
 
 while(True):
     imsg= input()
     log.debug("User: {}".format(imsg))
-    msg= {"sender_id":"shivam", "message":imsg, "session_id": sio.sid}
+    #msg= {"sender_id":"shivam", "message":imsg, "session_id": sio.sid}
+    msg= imsg
     send(msg)
